@@ -1,0 +1,66 @@
+ZeroDivisionError
+Python 3.7.1: /Users/dhellmann/Envs/pymotw37/bin/python3
+Sun Dec  9 10:46:17 2018
+
+A problem occurred in a Python script.  Here is the sequence of
+function calls leading up to the error, in the order they occurred.
+
+ /Users/dhellmann/Documents/PyMOTW/Python3/pymotw-3/source/cgitb/cgitb_log_exception.py in <module>()
+   24 
+   25 def func(a, divisor):
+   26     return a / divisor
+   27 
+   28 func(1, 0)
+func = <function func>
+
+ /Users/dhellmann/Documents/PyMOTW/Python3/pymotw-3/source/cgitb/cgitb_log_exception.py in func(a=1, divisor=0)
+   24 
+   25 def func(a, divisor):
+   26     return a / divisor
+   27 
+   28 func(1, 0)
+a = 1
+divisor = 0
+ZeroDivisionError: division by zero
+    __cause__ = None
+    __class__ = <class 'ZeroDivisionError'>
+    __context__ = None
+    __delattr__ = <method-wrapper '__delattr__' of ZeroDivisionError object>
+    __dict__ = {}
+    __dir__ = <built-in method __dir__ of ZeroDivisionError object>
+    __doc__ = 'Second argument to a division or modulo operation was zero.'
+    __eq__ = <method-wrapper '__eq__' of ZeroDivisionError object>
+    __format__ = <built-in method __format__ of ZeroDivisionError object>
+    __ge__ = <method-wrapper '__ge__' of ZeroDivisionError object>
+    __getattribute__ = <method-wrapper '__getattribute__' of ZeroDivisionError object>
+    __gt__ = <method-wrapper '__gt__' of ZeroDivisionError object>
+    __hash__ = <method-wrapper '__hash__' of ZeroDivisionError object>
+    __init__ = <method-wrapper '__init__' of ZeroDivisionError object>
+    __init_subclass__ = <built-in method __init_subclass__ of type object>
+    __le__ = <method-wrapper '__le__' of ZeroDivisionError object>
+    __lt__ = <method-wrapper '__lt__' of ZeroDivisionError object>
+    __ne__ = <method-wrapper '__ne__' of ZeroDivisionError object>
+    __new__ = <built-in method __new__ of type object>
+    __reduce__ = <built-in method __reduce__ of ZeroDivisionError object>
+    __reduce_ex__ = <built-in method __reduce_ex__ of ZeroDivisionError object>
+    __repr__ = <method-wrapper '__repr__' of ZeroDivisionError object>
+    __setattr__ = <method-wrapper '__setattr__' of ZeroDivisionError object>
+    __setstate__ = <built-in method __setstate__ of ZeroDivisionError object>
+    __sizeof__ = <built-in method __sizeof__ of ZeroDivisionError object>
+    __str__ = <method-wrapper '__str__' of ZeroDivisionError object>
+    __subclasshook__ = <built-in method __subclasshook__ of type object>
+    __suppress_context__ = False
+    __traceback__ = <traceback object>
+    args = ('division by zero',)
+    with_traceback = <built-in method with_traceback of ZeroDivisionError object>
+
+The above is a description of an error in a Python program.  Here is
+the original traceback:
+
+Traceback (most recent call last):
+  File "cgitb_log_exception.py", line 28, in <module>
+    func(1, 0)
+  File "cgitb_log_exception.py", line 26, in func
+    return a / divisor
+ZeroDivisionError: division by zero
+
