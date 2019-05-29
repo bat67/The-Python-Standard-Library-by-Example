@@ -6,6 +6,8 @@
 
 一本又厚又全的讲解Python3标准库的书籍（1000多页）！适合当作字典参考或者闲暇时慢慢阅读。
 
+电子书见本仓库中：`The Python Standard Library by Example.pdf`
+
 ## 中文版本
 
 ![](.assets/cover_zh.jpg)
