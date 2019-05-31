@@ -8,17 +8,20 @@
 
 电子书见本仓库中：`The Python Standard Library by Example.pdf`
 
+E-book: `The Python Standard Library by Example.pdf` in this repo
+
+
 ## 中文版本
 
 ![](.assets/cover_zh.jpg)
 
 
-## English version
-![](.assets/cover_en.jpg)
-
-
-
 ## 中文目录
+
+<details>
+<summary>展开查看</summary>
+<pre>
+
 * 译者序
 * 前言
 * 第1章 文本 1
@@ -856,9 +859,21 @@
 * 附录B 标准库之外 1081
 
 
+</pre>
+</details>
+
+
+
+## English Version
+![](.assets/cover_en.jpg)
+
 
 
 ## Table of Contents
+
+<details>
+<summary>展开查看</summary>
+<pre>
 
 * Chapter 1 Text 1
 * 1.1 string: Text Constants and Templates 1
@@ -1786,3 +1801,11 @@
 * B.9 Email 1370
 * B.10 Application Building Blocks 1370
 * B.11 Developer Tools 1371
+
+
+</pre>
+</details>
+
+
+
+
