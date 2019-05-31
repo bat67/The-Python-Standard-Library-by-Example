@@ -18,7 +18,7 @@
 
 
 
-## 目录
+## 中文目录
 * 译者序
 * 前言
 * 第1章 文本 1
@@ -858,5 +858,931 @@
 
 
 
+## Table of Contents
 
-
+* Chapter 1 Text 1
+* 1.1 string: Text Constants and Templates 1
+* 1.1.1 Functions 1
+* 1.1.2 Templates 2
+* 1.1.3 Advanced Templates 4
+* 1.1.4 Formatter 6
+* 1.1.5 Constants 6
+* 1.2 textwrap: Formatting Text Paragraphs 7
+* 1.2.1 Example Data 8
+* 1.2.2 Filling Paragraphs 8
+* 1.2.3 Removing Existing Indentation 8
+* 1.2.4 Combining Dedent and Fill 9
+* 1.2.5 Indenting Blocks 10
+* 1.2.6 Hanging Indents 12
+* 1.2.7 Truncating Long Text 12
+* 1.3 re: Regular Expressions 13
+* 1.3.1 Finding Patterns in Text 14
+* 1.3.2 Compiling Expressions 15
+* 1.3.3 Multiple Matches 16
+* 1.3.4 Pattern Syntax 17
+* 1.3.5 Constraining the Search 28
+* 1.3.6 Dissecting Matches with Groups 30
+* 1.3.7 Search Options 36
+* 1.3.8 Looking Ahead or Behind 44
+* 1.3.9 Self-referencing Expressions 48
+* 1.3.10 Modifying Strings with Patterns 53
+* 1.3.11 Splitting with Patterns 55
+* 1.4 diﬄib: Compare Sequences 58
+* 1.4.1 Comparing Bodies of Text 58
+* 1.4.2 Junk Data 61
+* 1.4.3 Comparing Arbitrary Types 62
+* ixx Contents
+* Chapter 2 Data Structures 65
+* 2.1 enum: Enumeration Type 66
+* 2.1.1 Creating Enumerations 66
+* 2.1.2 Iteration 67
+* 2.1.3 Comparing Enums 67
+* 2.1.4 Unique Enumeration Values 69
+* 2.1.5 Creating Enumerations Programmatically 71
+* 2.1.6 Non-integer Member Values 72
+* 2.2 collections: Container Data Types 75
+* 2.2.1 ChainMap: Search Multiple Dictionaries 75
+* 2.2.2 Counter: Count Hashable Objects 79
+* 2.2.3 defaultdict: Missing Keys Return a Default Value 83
+* 2.2.4 deque: Double-Ended Queue 84
+* 2.2.5 namedtuple: Tuple Subclass with Named Fields 89
+* 2.2.6 OrderedDict: Remember the Order Keys Are Added to a Dictionary 94
+* 2.2.7 collections.abc: Abstract Base Classes for Containers 97
+* 2.3 array: Sequence of Fixed-Type Data 98
+* 2.3.1 Initialization 98
+* 2.3.2 Manipulating Arrays 99
+* 2.3.3 Arrays and Files 100
+* 2.3.4 Alternative Byte Ordering 101
+* 2.4 heapq: Heap Sort Algorithm 103
+* 2.4.1 Example Data 103
+* 2.4.2 Creating a Heap 104
+* 2.4.3 Accessing the Contents of a Heap 105
+* 2.4.4 Data Extremes from a Heap 107
+* 2.4.5 Eﬃciently Merging Sorted Sequences 108
+* 2.5 bisect: Maintain Lists in Sorted Order 109
+* 2.5.1 Inserting in Sorted Order 109
+* 2.5.2 Handling Duplicates 110
+* 2.6 queue: Thread-Safe FIFO Implementation 111
+* 2.6.1 Basic FIFO Queue 112
+* 2.6.2 LIFO Queue 112
+* 2.6.3 Priority Queue 113
+* 2.6.4 Building a Threaded Podcast Client 114
+* 2.7 struct: Binary Data Structures 117
+* 2.7.1 Functions Versus Struct Class 117
+* 2.7.2 Packing and Unpacking 117
+* 2.7.3 Endianness 118
+* 2.7.4 Buﬀers 120
+* 2.8 weakref: Impermanent References to Objects 121
+* 2.8.1 References 122
+* 2.8.2 Reference Callbacks 122
+* 2.8.3 Finalizing Objects 123
+* 2.8.4 Proxies 126
+* 2.8.5 Caching Objects 127Contents xi
+* 2.9 copy: Duplicate Objects 130
+* 2.9.1 Shallow Copies 130
+* 2.9.2 Deep Copies 131
+* 2.9.3 Customizing Copy Behavior 132
+* 2.9.4 Recursion in Deep Copy 133
+* 2.10 pprint: Pretty-Print Data Structures 136
+* 2.10.1 Printing 136
+* 2.10.2 Formatting 137
+* 2.10.3 Arbitrary Classes 138
+* 2.10.4 Recursion 139
+* 2.10.5 Limiting Nested Output 139
+* 2.10.6 Controlling Output Width 140
+* Chapter 3 Algorithms 143
+* 3.1 functools: Tools for Manipulating Functions 143
+* 3.1.1 Decorators 143
+* 3.1.2 Comparison 151
+* 3.1.3 Caching 155
+* 3.1.4 Reducing a Data Set 158
+* 3.1.5 Generic Functions 161
+* 3.2 itertools: Iterator Functions 163
+* 3.2.1 Merging and Splitting Iterators 164
+* 3.2.2 Converting Inputs 167
+* 3.2.3 Producing New Values 169
+* 3.2.4 Filtering 172
+* 3.2.5 Grouping Data 175
+* 3.2.6 Combining Inputs 176
+* 3.3 operator: Functional Interface to Built-in Operators 183
+* 3.3.1 Logical Operations 183
+* 3.3.2 Comparison Operators 184
+* 3.3.3 Arithmetic Operators 184
+* 3.3.4 Sequence Operators 186
+* 3.3.5 In-Place Operators 187
+* 3.3.6 Attribute and Item “Getters” 188
+* 3.3.7 Combining Operators and Custom Classes 190
+* 3.4 contextlib: Context Manager Utilities 191
+* 3.4.1 Context Manager API 191
+* 3.4.2 Context Managers as Function Decorators 194
+* 3.4.3 From Generator to Context Manager 196
+* 3.4.4 Closing Open Handles 198
+* 3.4.5 Ignoring Exceptions 199
+* 3.4.6 Redirecting Output Streams 201
+* 3.4.7 Dynamic Context Manager Stacks 202xii Contents
+* Chapter 4 Dates and Times 211
+* 4.1 time: Clock Time 211
+* 4.1.1 Comparing Clocks 211
+* 4.1.2 Wall Clock Time 213
+* 4.1.3 Monotonic Clocks 214
+* 4.1.4 Processor Clock Time 214
+* 4.1.5 Performance Counter 216
+* 4.1.6 Time Components 217
+* 4.1.7 Working with Time Zones 218
+* 4.1.8 Parsing and Formatting Times 219
+* 4.2 datetime: Date and Time Value Manipulation 221
+* 4.2.1 Times 221
+* 4.2.2 Dates 222
+* 4.2.3 timedeltas 225
+* 4.2.4 Date Arithmetic 226
+* 4.2.5 Comparing Values 228
+* 4.2.6 Combining Dates and Times 228
+* 4.2.7 Formatting and Parsing 230
+* 4.2.8 Time Zones 231
+* 4.3 calendar: Work with Dates 233
+* 4.3.1 Formatting Examples 233
+* 4.3.2 Locales 236
+* 4.3.3 Calculating Dates 236
+* Chapter 5 Mathematics 239
+* 5.1 decimal: Fixed- and Floating-Point Math 239
+* 5.1.1 Decimal 239
+* 5.1.2 Formatting 241
+* 5.1.3 Arithmetic 242
+* 5.1.4 Special Values 243
+* 5.1.5 Context 244
+* 5.2 fractions: Rational Numbers 250
+* 5.2.1 Creating Fraction Instances 250
+* 5.2.2 Arithmetic 252
+* 5.2.3 Approximating Values 253
+* 5.3 random: Pseudorandom Number Generators 254
+* 5.3.1 Generating Random Numbers 254
+* 5.3.2 Seeding 255
+* 5.3.3 Saving State 255
+* 5.3.4 Random Integers 257
+* 5.3.5 Picking Random Items 258
+* 5.3.6 Permutations 258
+* 5.3.7 Sampling 260
+* 5.3.8 Multiple Simultaneous Generators 261
+* 5.3.9 SystemRandom 262
+* 5.3.10 Non-uniform Distributions 263Contents xiii
+* 5.4 math: Mathematical Functions 264
+* 5.4.1 Special Constants 265
+* 5.4.2 Testing for Exceptional Values 265
+* 5.4.3 Comparing 267
+* 5.4.4 Converting Floating-Point Values to Integers 270
+* 5.4.5 Alternative Representations of Floating-Point Values 271
+* 5.4.6 Positive and Negative Signs 272
+* 5.4.7 Commonly Used Calculations 274
+* 5.4.8 Exponents and Logarithms 278
+* 5.4.9 Angles 282
+* 5.4.10 Trigonometry 284
+* 5.4.11 Hyperbolic Functions 288
+* 5.4.12 Special Functions 289
+* 5.5 statistics: Statistical Calculations 290
+* 5.5.1 Averages 290
+* 5.5.2 Variance 292
+* Chapter 6 The File System 295
+* 6.1 os.path: Platform-Independent Manipulation of Filenames 296
+* 6.1.1 Parsing Paths 296
+* 6.1.2 Building Paths 300
+* 6.1.3 Normalizing Paths 301
+* 6.1.4 File Times 302
+* 6.1.5 Testing Files 303
+* 6.2 pathlib: File System Paths as Objects 305
+* 6.2.1 Path Representations 305
+* 6.2.2 Building Paths 305
+* 6.2.3 Parsing Paths 307
+* 6.2.4 Creating Concrete Paths 309
+* 6.2.5 Directory Contents 309
+* 6.2.6 Reading and Writing Files 312
+* 6.2.7 Manipulating Directories and Symbolic Links 312
+* 6.2.8 File Types 313
+* 6.2.9 File Properties 315
+* 6.2.10 Permissions 317
+* 6.2.11 Deleting 318
+* 6.3 glob: Filename Pattern Matching 319
+* 6.3.1 Example Data 320
+* 6.3.2 Wildcards 320
+* 6.3.3 Single-Character Wildcard 321
+* 6.3.4 Character Ranges 322
+* 6.3.5 Escaping Meta-characters 322
+* 6.4 fnmatch: Unix-Style Glob Pattern Matching 323
+* 6.4.1 Simple Matching 323
+* 6.4.2 Filtering 325
+* 6.4.3 Translating Patterns 325xiv Contents
+* 6.5 linecache: Read Text Files Eﬃciently 326
+* 6.5.1 Test Data 326
+* 6.5.2 Reading Speciﬁc Lines 327
+* 6.5.3 Handling Blank Lines 328
+* 6.5.4 Error Handling 328
+* 6.5.5 Reading Python Source Files 329
+* 6.6 tempﬁle: Temporary File System Objects 330
+* 6.6.1 Temporary Files 331
+* 6.6.2 Named Files 333
+* 6.6.3 Spooled Files 333
+* 6.6.4 Temporary Directories 335
+* 6.6.5 Predicting Names 335
+* 6.6.6 Temporary File Location 336
+* 6.7 shutil: High-Level File Operations 337
+* 6.7.1 Copying Files 337
+* 6.7.2 Copying File Metadata 340
+* 6.7.3 Working with Directory Trees 342
+* 6.7.4 Finding Files 345
+* 6.7.5 Archives 346
+* 6.7.6 File System Space 350
+* 6.8 ﬁlecmp: Compare Files 351
+* 6.8.1 Example Data 351
+* 6.8.2 Comparing Files 353
+* 6.8.3 Comparing Directories 355
+* 6.8.4 Using Diﬀerences in a Program 357
+* 6.9 mmap: Memory-Map Files 361
+* 6.9.1 Reading 361
+* 6.9.2 Writing 362
+* 6.9.3 Regular Expressions 364
+* 6.10 codecs: String Encoding and Decoding 365
+* 6.10.1 Unicode Primer 365
+* 6.10.2 Working with Files 368
+* 6.10.3 Byte Order 370
+* 6.10.4 Error Handling 372
+* 6.10.5 Encoding Translation 376
+* 6.10.6 Non-Unicode Encodings 377
+* 6.10.7 Incremental Encoding 378
+* 6.10.8 Unicode Data and Network Communication 380
+* 6.10.9 Deﬁning a Custom Encoding 383
+* 6.11 io: Text, Binary, and Raw Stream I/O Tools 390
+* 6.11.1 In-Memory Streams 390
+* 6.11.2 Wrapping Byte Streams for Text Data 392Contents xv
+* Chapter 7 Data Persistence and Exchange 395
+* 7.1 pickle: Object Serialization 396
+* 7.1.1 Encoding and Decoding Data in Strings 396
+* 7.1.2 Working with Streams 397
+* 7.1.3 Problems Reconstructing Objects 399
+* 7.1.4 Unpicklable Objects 400
+* 7.1.5 Circular References 402
+* 7.2 shelve: Persistent Storage of Objects 405
+* 7.2.1 Creating a New Shelf 405
+* 7.2.2 Writeback 406
+* 7.2.3 Speciﬁc Shelf Types 408
+* 7.3 dbm: Unix Key–Value Databases 408
+* 7.3.1 Database Types 408
+* 7.3.2 Creating a New Database 409
+* 7.3.3 Opening an Existing Database 410
+* 7.3.4 Error Cases 411
+* 7.4 sqlite3: Embedded Relational Database 412
+* 7.4.1 Creating a Database 412
+* 7.4.2 Retrieving Data 415
+* 7.4.3 Query Metadata 417
+* 7.4.4 Row Objects 417
+* 7.4.5 Using Variables with Queries 419
+* 7.4.6 Bulk Loading 421
+* 7.4.7 Deﬁning New Column Types 422
+* 7.4.8 Determining Types for Columns 426
+* 7.4.9 Transactions 428
+* 7.4.10 Isolation Levels 431
+* 7.4.11 In-Memory Databases 434
+* 7.4.12 Exporting the Contents of a Database 435
+* 7.4.13 Using Python Functions in SQL 436
+* 7.4.14 Querying with Regular Expressions 439
+* 7.4.15 Custom Aggregation 440
+* 7.4.16 Threading and Connection Sharing 441
+* 7.4.17 Restricting Access to Data 442
+* 7.5 xml.etree.ElementTree: XML Manipulation API 445
+* 7.5.1 Parsing an XML Document 445
+* 7.5.2 Traversing the Parsed Tree 446
+* 7.5.3 Finding Nodes in a Document 447
+* 7.5.4 Parsed Node Attributes 449
+* 7.5.5 Watching Events While Parsing 451
+* 7.5.6 Creating a Custom Tree Builder 453
+* 7.5.7 Parsing Strings 455
+* 7.5.8 Building Documents With Element Nodes 457
+* 7.5.9 Pretty-Printing XML 458
+* 7.5.10 Setting Element Properties 459xvi Contents
+* 7.5.11 Building Trees from Lists of Nodes 461
+* 7.5.12 Serializing XML to a Stream 464
+* 7.6 csv: Comma-Separated Value Files 466
+* 7.6.1 Reading 466
+* 7.6.2 Writing 467
+* 7.6.3 Dialects 469
+* 7.6.4 Using Field Names 474
+* Chapter 8 Data Compression and Archiving 477
+* 8.1 zlib: GNU zlib Compression 477
+* 8.1.1 Working with Data in Memory 477
+* 8.1.2 Incremental Compression and Decompression 479
+* 8.1.3 Mixed Content Streams 480
+* 8.1.4 Checksums 481
+* 8.1.5 Compressing Network Data 482
+* 8.2 gzip: Read and Write GNU zip Files 486
+* 8.2.1 Writing Compressed Files 486
+* 8.2.2 Reading Compressed Data 489
+* 8.2.3 Working with Streams 490
+* 8.3 bz2: bzip2 Compression 491
+* 8.3.1 One-Shot Operations in Memory 492
+* 8.3.2 Incremental Compression and Decompression 493
+* 8.3.3 Mixed-Content Streams 494
+* 8.3.4 Writing Compressed Files 495
+* 8.3.5 Reading Compressed Files 497
+* 8.3.6 Reading and Writing Unicode Data 498
+* 8.3.7 Compressing Network Data 499
+* 8.4 tarﬁle: Tar Archive Access 503
+* 8.4.1 Testing Tar Files 503
+* 8.4.2 Reading Metadata from an Archive 504
+* 8.4.3 Extracting Files from an Archive 506
+* 8.4.4 Creating New Archives 508
+* 8.4.5 Using Alternative Archive Member Names 508
+* 8.4.6 Writing Data from Sources Other Than Files 509
+* 8.4.7 Appending to Archives 510
+* 8.4.8 Working with Compressed Archives 510
+* 8.5 zipﬁle: ZIP Archive Access 511
+* 8.5.1 Testing ZIP Files 512
+* 8.5.2 Reading Metadata from an Archive 512
+* 8.5.3 Extracting Archived Files From an Archive 514
+* 8.5.4 Creating New Archives 514
+* 8.5.5 Using Alternative Archive Member Names 516
+* 8.5.6 Writing Data from Sources Other Than Files 517
+* 8.5.7 Writing with a ZipInfo Instance 517
+* 8.5.8 Appending to Files 518Contents xvii
+* 8.5.9 Python ZIP Archives 519
+* 8.5.10 Limitations 521
+* Chapter 9 Cryptography 523
+* 9.1 hashlib: Cryptographic Hashing 523
+* 9.1.1 Hash Algorithms 523
+* 9.1.2 Sample Data 524
+* 9.1.3 MD5 Example 524
+* 9.1.4 SHA1 Example 525
+* 9.1.5 Creating a Hash by Name 525
+* 9.1.6 Incremental Updates 526
+* 9.2 hmac: Cryptographic Message Signing and Veriﬁcation 528
+* 9.2.1 Signing Messages 528
+* 9.2.2 Alternative Digest Types 528
+* 9.2.3 Binary Digests 529
+* 9.2.4 Applications of Message Signatures 530
+* Chapter 10 Concurrency with Processes, Threads, and Coroutines 535
+* 10.1 subprocess: Spawning Additional Processes 535
+* 10.1.1 Running External Command 536
+* 10.1.2 Working with Pipes Directly 542
+* 10.1.3 Connecting Segments of a Pipe 545
+* 10.1.4 Interacting with Another Command 546
+* 10.1.5 Signaling Between Processes 548
+* 10.2 signal: Asynchronous System Events 553
+* 10.2.1 Receiving Signals 554
+* 10.2.2 Retrieving Registered Handlers 555
+* 10.2.3 Sending Signals 556
+* 10.2.4 Alarms 556
+* 10.2.5 Ignoring Signals 557
+* 10.2.6 Signals and Threads 558
+* 10.3 threading: Manage Concurrent Operations Within a Process 560
+* 10.3.1 Thread Objects 560
+* 10.3.2 Determining the Current Thread 562
+* 10.3.3 Daemon Versus Non-daemon Threads 564
+* 10.3.4 Enumerating All Threads 567
+* 10.3.5 Subclassing Thread 568
+* 10.3.6 Timer Threads 570
+* 10.3.7 Signaling Between Threads 571
+* 10.3.8 Controlling Access to Resources 572
+* 10.3.9 Synchronizing Threads 578
+* 10.3.10 Limiting Concurrent Access to Resources 581
+* 10.3.11 Thread Speciﬁc Data 583
+* 10.4 multiprocessing: Manage Processes Like Threads 586
+* 10.4.1 multiprocessing Basics 586
+* 10.4.2 Importable Target Functions 587xviii Contents
+* 10.4.3 Determining the Current Process 588
+* 10.4.4 Daemon Processes 589
+* 10.4.5 Waiting for Processes 591
+* 10.4.6 Terminating Processes 593
+* 10.4.7 Process Exit Status 594
+* 10.4.8 Logging 596
+* 10.4.9 Subclassing Process 597
+* 10.4.10 Passing Messages to Processes 598
+* 10.4.11 Signaling Between Processes 602
+* 10.4.12 Controlling Access to Resources 603
+* 10.4.13 Synchronizing Operations 604
+* 10.4.14 Controlling Concurrent Access to Resources 605
+* 10.4.15 Managing Shared State 608
+* 10.4.16 Shared Namespaces 608
+* 10.4.17 Process Pools 611
+* 10.4.18 Implementing MapReduce 613
+* 10.5 asyncio: Asynchronous I/O, Event Loop, and Concurrency Tools 617
+* 10.5.1 Asynchronous Concurrency Concepts 618
+* 10.5.2 Cooperative Multitasking with Coroutines 618
+* 10.5.3 Scheduling Calls to Regular Functions 622
+* 10.5.4 Producing Results Asynchronously 625
+* 10.5.5 Executing Tasks Concurrently 628
+* 10.5.6 Composing Coroutines with Control Structures 632
+* 10.5.7 Synchronization Primitives 637
+* 10.5.8 Asynchronous I/O with Protocol Class Abstractions 644
+* 10.5.9 Asynchronous I/O Using Coroutines and Streams 650
+* 10.5.10 Using SSL 656
+* 10.5.11 Interacting with Domain Name Services 658
+* 10.5.12 Working with Subprocesses 661
+* 10.5.13 Receiving Unix Signals 668
+* 10.5.14 Combining Coroutines with Threads and Processes 670
+* 10.5.15 Debugging with asyncio 673
+* 10.6 concurrent.futures: Manage Pools of Concurrent Tasks 677
+* 10.6.1 Using map() with a Basic Thread Pool 677
+* 10.6.2 Scheduling Individual Tasks 678
+* 10.6.3 Waiting for Tasks in Any Order 679
+* 10.6.4 Future Callbacks 680
+* 10.6.5 Canceling Tasks 681
+* 10.6.6 Exceptions in Tasks 683
+* 10.6.7 Context Manager 683
+* 10.6.8 Process Pools 684Contents xix
+* Chapter 11 Networking 687
+* 11.1 ipaddress: Internet Addresses 687
+* 11.1.1 Addresses 687
+* 11.1.2 Networks 688
+* 11.1.3 Interfaces 692
+* 11.2 socket: Network Communication 693
+* 11.2.1 Addressing, Protocol Families, and Socket Types 693
+* 11.2.2 TCP/IP Client and Server 704
+* 11.2.3 User Datagram Client and Server 711
+* 11.2.4 Unix Domain Sockets 714
+* 11.2.5 Multicast 717
+* 11.2.6 Sending Binary Data 721
+* 11.2.7 Non-blocking Communication and Timeouts 723
+* 11.3 selectors: I/O Multiplexing Abstractions 724
+* 11.3.1 Operating Model 724
+* 11.3.2 Echo Server 724
+* 11.3.3 Echo Client 726
+* 11.3.4 Server and Client Together 727
+* 11.4 select: Wait for I/O Eﬃciently 728
+* 11.4.1 Using select() 729
+* 11.4.2 Non-blocking I/O with Timeouts 734
+* 11.4.3 Using poll() 737
+* 11.4.4 Platform-Speciﬁc Options 742
+* 11.5 socketserver: Creating Network Servers 742
+* 11.5.1 Server Types 742
+* 11.5.2 Server Objects 743
+* 11.5.3 Implementing a Server 743
+* 11.5.4 Request Handlers 743
+* 11.5.5 Echo Example 744
+* 11.5.6 Threading and Forking 749
+* Chapter 12 The Internet 753
+* 12.1 urllib.parse: Split URLs into Components 753
+* 12.1.1 Parsing 754
+* 12.1.2 Unparsing 756
+* 12.1.3 Joining 758
+* 12.1.4 Encoding Query Arguments 759
+* 12.2 urllib.request: Network Resource Access 761
+* 12.2.1 HTTP GET 761
+* 12.2.2 Encoding Arguments 763
+* 12.2.3 HTTP POST 764
+* 12.2.4 Adding Outgoing Headers 765
+* 12.2.5 Posting Form Data from a Request 766
+* 12.2.6 Uploading Files 767
+* 12.2.7 Creating Custom Protocol Handlers 770xx Contents
+* 12.3 urllib.robotparser: Internet Spider Access Control 773
+* 12.3.1 robots.txt 773
+* 12.3.2 Testing Access Permissions 774
+* 12.3.3 Long-Lived Spiders 775
+* 12.4 base64: Encode Binary Data with ASCII 776
+* 12.4.1 Base 64 Encoding 777
+* 12.4.2 Base64 Decoding 778
+* 12.4.3 URL-Safe Variations 778
+* 12.4.4 Other Encodings 779
+* 12.5 http.server: Base Classes for Implementing Web Servers 781
+* 12.5.1 HTTP GET 781
+* 12.5.2 HTTP POST 784
+* 12.5.3 Threading and Forking 786
+* 12.5.4 Handling Errors 787
+* 12.5.5 Setting Headers 788
+* 12.5.6 Command-Line Use 789
+* 12.6 http.cookies: HTTP Cookies 790
+* 12.6.1 Creating and Setting a Cookie 790
+* 12.6.2 Morsels 791
+* 12.6.3 Encoded Values 793
+* 12.6.4 Receiving and Parsing Cookie Headers 794
+* 12.6.5 Alternative Output Formats 795
+* 12.7 webbrowser: Displays Web Pages 796
+* 12.7.1 Simple Example 796
+* 12.7.2 Windows Versus Tabs 796
+* 12.7.3 Using a Speciﬁc Browser 796
+* 12.7.4 BROWSER Variable 797
+* 12.7.5 Command-Line Interface 797
+* 12.8 uuid: Universally Unique Identiﬁers 797
+* 12.8.1 UUID 1: IEEE 802 MAC Address 798
+* 12.8.2 UUID 3 and 5: Name-Based Values 800
+* 12.8.3 UUID 4: Random Values 802
+* 12.8.4 Working with UUID Objects 802
+* 12.9 json: JavaScript Object Notation 803
+* 12.9.1 Encoding and Decoding Simple Data Types 804
+* 12.9.2 Human-Consumable Versus Compact Output 805
+* 12.9.3 Encoding Dictionaries 807
+* 12.9.4 Working with Custom Types 807
+* 12.9.5 Encoder and Decoder Classes 810
+* 12.9.6 Working with Streams and Files 813
+* 12.9.7 Mixed Data Streams 813
+* 12.9.8 JSON at the Command Line 815
+* 12.10 xmlrpc.client: Client Library for XML-RPC 816
+* 12.10.1 Connecting to a Server 817
+* 12.10.2 Data Types 819Contents xxi
+* 12.10.3 Passing Objects 822
+* 12.10.4 Binary Data 823
+* 12.10.5 Exception Handling 825
+* 12.10.6 Combining Calls into One Message 826
+* 12.11 xmlrpc.server: An XML-RPC Server 827
+* 12.11.1 A Simple Server 828
+* 12.11.2 Alternate API Names 829
+* 12.11.3 Dotted API Names 830
+* 12.11.4 Arbitrary API Names 831
+* 12.11.5 Exposing Methods of Objects 832
+* 12.11.6 Dispatching Calls 834
+* 12.11.7 Introspection API 837
+* Chapter 13 Email 841
+* 13.1 smtplib: Simple Mail Transfer Protocol Client 841
+* 13.1.1 Sending an Email Message 841
+* 13.1.2 Authentication and Encryption 843
+* 13.1.3 Verifying an Email Address 846
+* 13.2 smtpd: Sample Mail Servers 847
+* 13.2.1 Mail Server Base Class 847
+* 13.2.2 Debugging Server 850
+* 13.2.3 Proxy Server 851
+* 13.3 mailbox: Manipulate Email Archives 852
+* 13.3.1 mbox 852
+* 13.3.2 Maildir 855
+* 13.3.3 Message Flags 862
+* 13.3.4 Other Formats 864
+* 13.4 imaplib: IMAP4 Client Library 864
+* 13.4.1 Variations 864
+* 13.4.2 Connecting to a Server 864
+* 13.4.3 Example Conﬁguration 866
+* 13.4.4 Listing Mailboxes 866
+* 13.4.5 Mailbox Status 869
+* 13.4.6 Selecting a Mailbox 871
+* 13.4.7 Searching for Messages 872
+* 13.4.8 Search Criteria 872
+* 13.4.9 Fetching Messages 874
+* 13.4.10 Whole Messages 880
+* 13.4.11 Uploading Messages 881
+* 13.4.12 Moving and Copying Messages 883
+* 13.4.13 Deleting Messages 884xxii Contents
+* Chapter 14 Application Building Blocks 887
+* 14.1 argparse: Command-Line Option and Argument Parsing 888
+* 14.1.1 Setting Up a Parser 888
+* 14.1.2 Deﬁning Arguments 888
+* 14.1.3 Parsing a Command Line 889
+* 14.1.4 Simple Examples 889
+* 14.1.5 Help Output 897
+* 14.1.6 Parser Organization 901
+* 14.1.7 Advanced Argument Processing 908
+* 14.2 getopt: Command-Line Option Parsing 916
+* 14.2.1 Function Arguments 916
+* 14.2.2 Short-Form Options 917
+* 14.2.3 Long-Form Options 917
+* 14.2.4 A Complete Example 918
+* 14.2.5 Abbreviating Long-Form Options 920
+* 14.2.6 GNU-Style Option Parsing 920
+* 14.2.7 Ending Argument Processing 922
+* 14.3 readline: The GNU readline Library 922
+* 14.3.1 Conﬁguring readline 923
+* 14.3.2 Completing Text 924
+* 14.3.3 Accessing the Completion Buﬀer 927
+* 14.3.4 Input History 931
+* 14.3.5 Hooks 934
+* 14.4 getpass: Secure Password Prompt 935
+* 14.4.1 Example 935
+* 14.4.2 Using getpass Without a Terminal 937
+* 14.5 cmd: Line-Oriented Command Processors 938
+* 14.5.1 Processing Commands 938
+* 14.5.2 Command Arguments 940
+* 14.5.3 Live Help 941
+* 14.5.4 Auto-Completion 942
+* 14.5.5 Overriding Base Class Methods 944
+* 14.5.6 Conﬁguring Cmd Through Attributes 946
+* 14.5.7 Running Shell Commands 947
+* 14.5.8 Alternative Inputs 948
+* 14.5.9 Commands from sys.argv 950
+* 14.6 shlex: Parse Shell-Style Syntaxes 951
+* 14.6.1 Parsing Quoted Strings 951
+* 14.6.2 Making Safe Strings for Shells 953
+* 14.6.3 Embedded Comments 954
+* 14.6.4 Splitting Strings into Tokens 954
+* 14.6.5 Including Other Sources of Tokens 955
+* 14.6.6 Controlling the Parser 956
+* 14.6.7 Error Handling 957
+* 14.6.8 POSIX Versus Non-POSIX Parsing 959Contents xxiii
+* 14.7 conﬁgparser: Work with Conﬁguration Files 960
+* 14.7.1 Conﬁguration File Format 961
+* 14.7.2 Reading Conﬁguration Files 961
+* 14.7.3 Accessing Conﬁguration Settings 963
+* 14.7.4 Modifying Settings 970
+* 14.7.5 Saving Conﬁguration Files 972
+* 14.7.6 Option Search Path 972
+* 14.7.7 Combining Values with Interpolation 975
+* 14.8 logging: Report Status, Error, and Informational Messages 980
+* 14.8.1 Logging Components 980
+* 14.8.2 Logging in Applications Versus Libraries 980
+* 14.8.3 Logging to a File 981
+* 14.8.4 Rotating Log Files 981
+* 14.8.5 Verbosity Levels 982
+* 14.8.6 Naming Logger Instances 984
+* 14.8.7 The Logging Tree 984
+* 14.8.8 Integration with the warnings Module 985
+* 14.9 ﬁleinput: Command-Line Filter Framework 986
+* 14.9.1 Converting M3U Files to RSS 987
+* 14.9.2 Progress Metadata 989
+* 14.9.3 In-Place Filtering 990
+* 14.10 atexit: Program Shutdown Callbacks 993
+* 14.10.1 Registering Exit Callbacks 993
+* 14.10.2 Decorator Syntax 994
+* 14.10.3 Canceling Callbacks 994
+* 14.10.4 When Are atexit Callbacks Not Called? 995
+* 14.10.5 Handling Exceptions 997
+* 14.11 sched: Timed Event Scheduler 998
+* 14.11.1 Running Events with a Delay 999
+* 14.11.2 Overlapping Events 1000
+* 14.11.3 Event Priorities 1001
+* 14.11.4 Canceling Events 1001
+* Chapter 15 Internationalization and Localization 1003
+* 15.1 gettext: Message Catalogs 1003
+* 15.1.1 Translation Workﬂow Overview 1003
+* 15.1.2 Creating Message Catalogs from Source Code 1004
+* 15.1.3 Finding Message Catalogs at Runtime 1007
+* 15.1.4 Plural Values 1008
+* 15.1.5 Application Versus Module Localization 1011
+* 15.1.6 Switching Translations 1012
+* 15.2 locale: Cultural Localization API 1012
+* 15.2.1 Probing the Current Locale 1013
+* 15.2.2 Currency 1018
+* 15.2.3 Formatting Numbers 1019xxiv Contents
+* 15.2.4 Parsing Numbers 1021
+* 15.2.5 Dates and Times 1022
+* Chapter 16 Developer Tools 1023
+* 16.1 pydoc: Online Help for Modules 1024
+* 16.1.1 Plain Text Help 1024
+* 16.1.2 HTML Help 1025
+* 16.1.3 Interactive Help 1026
+* 16.2 doctest: Testing Through Documentation 1026
+* 16.2.1 Getting Started 1026
+* 16.2.2 Handling Unpredictable Output 1028
+* 16.2.3 Tracebacks 1032
+* 16.2.4 Working Around Whitespace 1034
+* 16.2.5 Test Locations 1039
+* 16.2.6 External Documentation 1042
+* 16.2.7 Running Tests 1044
+* 16.2.8 Test Context 1048
+* 16.3 unittest: Automated Testing Framework 1051
+* 16.3.1 Basic Test Structure 1051
+* 16.3.2 Running Tests 1051
+* 16.3.3 Test Outcomes 1052
+* 16.3.4 Asserting Truth 1054
+* 16.3.5 Testing Equality 1054
+* 16.3.6 Almost Equal? 1055
+* 16.3.7 Containers 1056
+* 16.3.8 Testing for Exceptions 1061
+* 16.3.9 Test Fixtures 1062
+* 16.3.10 Repeating Tests with Diﬀerent Inputs 1065
+* 16.3.11 Skipping Tests 1066
+* 16.3.12 Ignoring Failing Tests 1068
+* 16.4 trace: Follow Program Flow 1069
+* 16.4.1 Example Program 1069
+* 16.4.2 Tracing Execution 1069
+* 16.4.3 Code Coverage 1070
+* 16.4.4 Calling Relationships 1073
+* 16.4.5 Programming Interface 1074
+* 16.4.6 Saving Result Data 1076
+* 16.4.7 Options 1077
+* 16.5 traceback: Exceptions and Stack Traces 1078
+* 16.5.1 Supporting Functions 1079
+* 16.5.2 Examining the Stack 1079
+* 16.5.3 TracebackException 1081
+* 16.5.4 Low-Level Exception APIs 1082
+* 16.5.5 Low-Level Stack APIs 1086Contents xxv
+* 16.6 cgitb: Detailed Traceback Reports 1089
+* 16.6.1 Standard Traceback Dumps 1089
+* 16.6.2 Enabling Detailed Tracebacks 1090
+* 16.6.3 Local Variables in Tracebacks 1093
+* 16.6.4 Exception Properties 1096
+* 16.6.5 HTML Output 1098
+* 16.6.6 Logging Tracebacks 1098
+* 16.7 pdb: Interactive Debugger 1101
+* 16.7.1 Starting the Debugger 1101
+* 16.7.2 Controlling the Debugger 1104
+* 16.7.3 Breakpoints 1117
+* 16.7.4 Changing Execution Flow 1129
+* 16.7.5 Customizing the Debugger with Aliases 1136
+* 16.7.6 Saving Conﬁguration Settings 1137
+* 16.8 proﬁle and pstats: Performance Analysis 1140
+* 16.8.1 Running the Proﬁler 1140
+* 16.8.2 Running in a Context 1143
+* 16.8.3 pstats: Saving and Working with Statistics 1144
+* 16.8.4 Limiting Report Contents 1145
+* 16.8.5 Caller/Callee Graphs 1146
+* 16.9 timeit: Time the Execution of Small Bits of Python Code 1148
+* 16.9.1 Module Contents 1148
+* 16.9.2 Basic Example 1148
+* 16.9.3 Storing Values in a Dictionary 1149
+* 16.9.4 From the Command Line 1152
+* 16.10 tabnanny: Indentation Validator 1153
+* 16.10.1 Running from the Command Line 1153
+* 16.11 compileall: Byte-Compile Source Files 1155
+* 16.11.1 Compiling One Directory 1155
+* 16.11.2 Ignoring Files 1156
+* 16.11.3 Compiling sys.path 1157
+* 16.11.4 Compiling Individual Files 1157
+* 16.11.5 From the Command Line 1158
+* 16.12 pyclbr: Class Browser 1160
+* 16.12.1 Scanning for Classes 1161
+* 16.12.2 Scanning for Functions 1162
+* 16.13 venv: Create Virtual Environments 1163
+* 16.13.1 Creating Environments 1163
+* 16.13.2 Contents of a Virtual Environment 1164
+* 16.13.3 Using Virtual Environments 1165
+* 16.14 ensurepip: Install the Python Package Installer 1167
+* 16.14.1 Installing pip 1167xxvi Contents
+* Chapter 17 Runtime Features 1169
+* 17.1 site: Site-wide Conﬁguration 1169
+* 17.1.1 Import Path 1169
+* 17.1.2 User Directories 1171
+* 17.1.3 Path Conﬁguration Files 1172
+* 17.1.4 Customizing Site Conﬁguration 1175
+* 17.1.5 Customizing User Conﬁguration 1176
+* 17.1.6 Disabling the site Module 1177
+* 17.2 sys: System-Speciﬁc Conﬁguration 1178
+* 17.2.1 Interpreter Settings 1178
+* 17.2.2 Runtime Environment 1185
+* 17.2.3 Memory Management and Limits 1187
+* 17.2.4 Exception Handling 1194
+* 17.2.5 Low-Level Thread Support 1197
+* 17.2.6 Modules and Imports 1200
+* 17.2.7 Tracing a Program As It Runs 1221
+* 17.3 os: Portable Access to Operating System–Speciﬁc Features 1227
+* 17.3.1 Examining the File System Contents 1228
+* 17.3.2 Managing File System Permissions 1230
+* 17.3.3 Creating and Deleting Directories 1233
+* 17.3.4 Working with Symbolic Links 1234
+* 17.3.5 Safely Replacing an Existing File 1234
+* 17.3.6 Detecting and Changing the Process Owner 1235
+* 17.3.7 Managing the Process Environment 1237
+* 17.3.8 Managing the Process Working Directory 1238
+* 17.3.9 Running External Commands 1239
+* 17.3.10 Creating Processes with os.fork() 1240
+* 17.3.11 Waiting for Child Processes 1242
+* 17.3.12 Spawning New Processes 1244
+* 17.3.13 Operating System Error Codes 1245
+* 17.4 platform: System Version Information 1246
+* 17.4.1 Interpreter 1246
+* 17.4.2 Platform 1247
+* 17.4.3 Operating System and Hardware Information 1248
+* 17.4.4 Executable Architecture 1250
+* 17.5 resource: System Resource Management 1251
+* 17.5.1 Current Usage 1251
+* 17.5.2 Resource Limits 1252
+* 17.6 gc: Garbage Collector 1254
+* 17.6.1 Tracing References 1255
+* 17.6.2 Forcing Garbage Collection 1258
+* 17.6.3 Finding References to Objects That Cannot Be Collected 1259
+* 17.6.4 Collection Thresholds and Generations 1261
+* 17.6.5 Debugging 1265Contents xxvii
+* 17.7 sysconﬁg: Interpreter Compile-Time Conﬁguration 1270
+* 17.7.1 Conﬁguration Variables 1270
+* 17.7.2 Installation Paths 1272
+* 17.7.3 Python Version and Platform 1276
+* Chapter 18 Language Tools 1279
+* 18.1 warnings: Non-fatal Alerts 1279
+* 18.1.1 Categories and Filtering 1280
+* 18.1.2 Generating Warnings 1280
+* 18.1.3 Filtering with Patterns 1281
+* 18.1.4 Repeated Warnings 1283
+* 18.1.5 Alternative Message Delivery Functions 1284
+* 18.1.6 Formatting 1285
+* 18.1.7 Stack Level in Warnings 1286
+* 18.2 abc: Abstract Base Classes 1287
+* 18.2.1 How ABCs Work 1287
+* 18.2.2 Registering a Concrete Class 1287
+* 18.2.3 Implementation Through Subclassing 1288
+* 18.2.4 Helper Base Class 1289
+* 18.2.5 Incomplete Implementations 1290
+* 18.2.6 Concrete Methods in ABCs 1291
+* 18.2.7 Abstract Properties 1292
+* 18.2.8 Abstract Class and Static Methods 1295
+* 18.3 dis: Python Byte-Code Disassembler 1296
+* 18.3.1 Basic Disassembly 1297
+* 18.3.2 Disassembling Functions 1297
+* 18.3.3 Classes 1300
+* 18.3.4 Source Code 1301
+* 18.3.5 Using Disassembly to Debug 1302
+* 18.3.6 Performance Analysis of Loops 1303
+* 18.3.7 Compiler Optimizations 1309
+* 18.4 inspect: Inspect Live Objects 1311
+* 18.4.1 Example Module 1311
+* 18.4.2 Inspecting Modules 1312
+* 18.4.3 Inspecting Classes 1314
+* 18.4.4 Inspecting Instances 1316
+* 18.4.5 Documentation Strings 1316
+* 18.4.6 Retrieving Source 1318
+* 18.4.7 Method and Function Signatures 1319
+* 18.4.8 Class Hierarchies 1322
+* 18.4.9 Method Resolution Order 1323
+* 18.4.10 The Stack and Frames 1324
+* 18.4.11 Command-Line Interface 1327xxviii Contents
+* Chapter 19 Modules and Packages 1329
+* 19.1 importlib: Python’s Import Mechanism 1329
+* 19.1.1 Example Package 1329
+* 19.1.2 Module Types 1330
+* 19.1.3 Importing Modules 1331
+* 19.1.4 Loaders 1332
+* 19.2 pkgutil: Package Utilities 1334
+* 19.2.1 Package Import Paths 1334
+* 19.2.2 Development Versions of Packages 1336
+* 19.2.3 Managing Paths with PKG Files 1338
+* 19.2.4 Nested Packages 1340
+* 19.2.5 Package Data 1341
+* 19.3 zipimport: Load Python Code from ZIP Archives 1344
+* 19.3.1 Example 1344
+* 19.3.2 Finding a Module 1345
+* 19.3.3 Accessing Code 1345
+* 19.3.4 Source 1346
+* 19.3.5 Packages 1348
+* 19.3.6 Data 1348
+* Appendix A Porting Notes 1351
+* A.1 References 1351
+* A.2 New Modules 1352
+* A.3 Renamed Modules 1352
+* A.4 Removed Modules 1354
+* A.4.1 bsddb 1354
+* A.4.2 commands 1354
+* A.4.3 compiler 1354
+* A.4.4 dircache 1354
+* A.4.5 EasyDialogs 1354
+* A.4.6 exceptions 1354
+* A.4.7 htmllib 1354
+* A.4.8 md5 1354
+* A.4.9 mimetools, MimeWriter, mimify, multiﬁle, and rfc822 1354
+* A.4.10 popen2 1354
+* A.4.11 posixﬁle 1355
+* A.4.12 sets 1355
+* A.4.13 sha 1355
+* A.4.14 sre 1355
+* A.4.15 statvfs 1355
+* A.4.16 thread 1355
+* A.4.17 user 1355
+* A.5 Deprecated Modules 1355
+* A.5.1 asyncore and asynchat 1355
+* A.5.2 formatter 1355Contents xxix
+* A.5.3 imp 1356
+* A.5.4 optparse 1356
+* A.6 Summary of Changes to Modules 1356
+* A.6.1 abc 1356
+* A.6.2 anydbm 1356
+* A.6.3 argparse 1356
+* A.6.4 array 1357
+* A.6.5 atexit 1357
+* A.6.6 base64 1357
+* A.6.7 bz2 1357
+* A.6.8 collections 1357
+* A.6.9 comands 1357
+* A.6.10 conﬁgparser 1358
+* A.6.11 contextlib 1358
+* A.6.12 csv 1358
+* A.6.13 datetime 1358
+* A.6.14 decimal 1358
+* A.6.15 fractions 1358
+* A.6.16 gc 1358
+* A.6.17 gettext 1359
+* A.6.18 glob 1359
+* A.6.19 http.cookies 1359
+* A.6.20 imaplib 1359
+* A.6.21 inspect 1359
+* A.6.22 itertools 1359
+* A.6.23 json 1359
+* A.6.24 locale 1359
+* A.6.25 logging 1360
+* A.6.26 mailbox 1360
+* A.6.27 mmap 1360
+* A.6.28 operator 1360
+* A.6.29 os 1360
+* A.6.30 os.path 1361
+* A.6.31 pdb 1361
+* A.6.32 pickle 1361
+* A.6.33 pipes 1362
+* A.6.34 platform 1362
+* A.6.35 random 1362
+* A.6.36 re 1362
+* A.6.37 shelve 1362
+* A.6.38 signal 1362
+* A.6.39 socket 1362
+* A.6.40 socketserver 1363
+* A.6.41 string 1363
+* A.6.42 struct 1363xxx Contents
+* A.6.43 subprocess 1363
+* A.6.44 sys 1363
+* A.6.45 threading 1364
+* A.6.46 time 1364
+* A.6.47 unittest 1364
+* A.6.48 UserDict, UserList, and UserString 1365
+* A.6.49 uuid 1365
+* A.6.50 whichdb 1365
+* A.6.51 xml.etree.ElementTree 1365
+* A.6.52 zipimport 1365
+* Appendix B Outside of the Standard Library 1367
+* B.1 Text 1367
+* B.2 Algorithms 1367
+* B.3 Dates and Times 1368
+* B.4 Mathematics 1368
+* B.5 Data Persistence and Exchange 1368
+* B.6 Cryptography 1369
+* B.7 Concurrency with Processes, Threads, and Coroutines 1369
+* B.8 The Internet 1369
+* B.9 Email 1370
+* B.10 Application Building Blocks 1370
+* B.11 Developer Tools 1371
